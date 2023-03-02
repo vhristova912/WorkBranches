@@ -15,9 +15,16 @@ namespace StatisticArray
 
             Console.WriteLine(OptionsManager.CountLess100(arr));
             Console.WriteLine(OptionsManager.MaxNum(arr));
-            arr=OptionsManager.ReverseArr(arr);
+            arr = OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
-            // TO DO
+            Console.WriteLine("count=" + OptionsManager.CountLess100(arr));
+            Console.WriteLine($"Min={OptionsManager.MinNum(arr)}");
+            OptionsManager.PrintEvenNum(arr);
+            Console.WriteLine("Sum="+OptionsManager.MinNum(arr));
+
+
+
+
         }
     }
 }

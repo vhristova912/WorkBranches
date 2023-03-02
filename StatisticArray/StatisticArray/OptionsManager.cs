@@ -17,6 +17,26 @@ namespace StatisticArray
         {
             return arr.Max();
         }
+        public static int MinNum(int[] arr)
+        {
+            return arr.Min();
+        }
+
+        public static int SumEvens(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i]%2==0)
+                {
+                    arr.Sum();
+                }
+            }
+            return arr.Sum();
+        }
+        public static int PrintEvenNums(int[] arr)
+        {
+
+        }
 
         public static int[] ReverseArr(int[] arr)
         {
